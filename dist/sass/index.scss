@@ -1,0 +1,12 @@
+$blue: #1875e7;
+div {
+  color: $blue;
+}
+
+@function double($n) {
+  @return $n * 2;
+}
+
+#sidebar {
+  width: double(5px);
+}
